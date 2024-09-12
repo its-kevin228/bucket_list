@@ -1,5 +1,5 @@
-import 'package:bucketlist/screens/add_screen.dart';
-import 'package:bucketlist/screens/main_screen.dart';
+
+import 'package:bucketlist/MainScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MainScreen(),
+      home: Mainscreen(),
       theme: ThemeData.light(useMaterial3: true),
     );
   }
